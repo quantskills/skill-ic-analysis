@@ -1,6 +1,29 @@
 ---
 name: ic-analysis
-description: IC 多维诊断 —— rank vs Pearson 对照、IC decay 曲线、子样本 IC（市值/波动/行业）、Top 篮 Jaccard 稳定性。回答"在哪类股票/什么周期上有效"。触发词：IC 分析、IC 衰减、IC decay、子样本 IC、因子稳定性、IC 时序、信号衰减。
+description: Use when an agent needs multidimensional IC diagnostics for a quantitative
+  signal, including rank versus Pearson IC, IC decay, subsample IC, top-basket Jaccard
+  stability, and cumulative IC timelines.
+quantSkills:
+  project_type: skill
+  category: tooling
+  tags:
+  - ic-analysis
+  - rank-ic
+  - ic-decay
+  - factor-diagnostics
+  - quant-research
+  platforms:
+  - claude-code
+  - codex
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: listed
+  maintainer_type: community
+  summary_zh: 不是评分系统，而是IC 多维诊断 Skill：双 IC 对照 + IC 衰减曲线 + 子样本切片 + Top 篮 Jaccard + 时序累计图。回答"在哪类股票/什么周期上有效"。
+  summary_en: Multidimensional IC diagnostics for rank versus Pearson IC, IC decay,
+    subsample IC, top-basket stability, and cumulative IC timelines.
+  license: GPL-3.0
 ---
 
 # IC Analysis
