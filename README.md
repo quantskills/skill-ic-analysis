@@ -6,6 +6,7 @@
 
 `role: skill` `output: 5-section diagnostic report` `paradigm: pooled cross-section`
 
+
 ---
 
 `skill-ic-analysis` 是 PandaAI Quant Skills 提供的 **IC 多维诊断 Skill**。单个 IC_IR 数字告诉你"因子有没有效"，但不告诉你"在哪有效、能用多久、稳不稳"。本 Skill 把 IC 拆成 5 个维度看。
@@ -123,3 +124,11 @@ Period      : 2021-12-04 → 2024-12-03 (val)
 This repository is licensed under the GNU General Public License v3.0. See LICENSE.
 
 Copyright (C) 2026 QuantSkills.
+
+## 🐼 PandaAI / QUANTSKILLS 社群
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/quantskills/.github/main/profile/assets/pandaai-community-qr.jpg" alt="PandaAI 社群二维码" width="220">
+  <br>
+  <sub>扫码加入 PandaAI 社群，交流 QUANTSKILLS 技能、Agent 工作流与量化研究实践。</sub>
+</div>
